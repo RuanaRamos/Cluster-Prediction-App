@@ -2,8 +2,6 @@ name: Sync to Hugging Face
 on:
   push:
     branches: [main]
-  force_push_handler:
-    types: [requested]
 
 jobs:
   deploy:
@@ -16,4 +14,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-      run: git push --force https://RuanaRamos:$HF_TOKEN@huggingface.co/spaces/Ruanramos/CSV-Extractor-AI main:refs/heads/main
+        run: git push --force https://RuanaRamos:$HF_TOKEN@huggingface.co/spaces/Ruanramos/CSV-Extractor-AI main:refs/heads/main
