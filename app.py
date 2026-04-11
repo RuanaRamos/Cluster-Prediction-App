@@ -54,4 +54,5 @@ if up_file is not None:
         mime='text/csv'
     )
 
-    
+    if __name__ == "__main__":
+        app.launch()
