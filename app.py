@@ -53,6 +53,3 @@ if up_file is not None:
         file_name='Interessengruppen.csv', 
         mime='text/csv'
     )
-
-    if __name__ == "__main__":
-        app.launch()
