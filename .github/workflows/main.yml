@@ -13,5 +13,5 @@ jobs:
           lfs: true
       - name: Push to hub
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_TOKENN: ${{ secrets.HF_TOKENN }}
         run: git push --force https://RuanaRamos:$HF_TOKENN@huggingface.co/spaces/Ruanaramos/CSV-Extractor-AI main
