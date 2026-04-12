@@ -1,7 +1,12 @@
 ---
-title: CSV Extractor AI
+title: Meu Projeto IA
+emoji: 🚀
+colorFrom: blue
+colorTo: gray
 sdk: streamlit
+python_version: 3.11
 app_file: app.py
+pinned: false
 ---
 
 # Cluster-Prediction-App
